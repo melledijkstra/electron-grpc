@@ -1,5 +1,6 @@
 {
   "name": "electron-grpc",
+  "repository": "https://github.com/melledijkstra/electron-grpc",
   "version": "1.0.0",
   "description": "A simple electron chat client with gRPC",
   "main": "main.js",
@@ -11,6 +12,12 @@
   "author": "Melle Dijkstra",
   "license": "ISC",
   "devDependencies": {
-    "electron": "^7.1.7"
+    "electron": "^7.1.7",
+    "grpc-tools": "^1.8.0"
+  },
+  "postinstall": "npm rebuild --target=7.1.7 --runtime=electron --dist-url=https://atom.io/download/electron",
+  "dependencies": {
+    "google-protobuf": "^3.11.2",
+    "grpc": "^1.24.2"
   }
 }
