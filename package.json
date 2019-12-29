@@ -1,0 +1,16 @@
+{
+  "name": "electron-grpc",
+  "version": "1.0.0",
+  "description": "A simple electron chat client with gRPC",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Melle Dijkstra",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^7.1.7"
+  }
+}
