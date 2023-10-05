@@ -12,7 +12,7 @@
   "author": "Melle Dijkstra",
   "license": "ISC",
   "devDependencies": {
-    "electron": "^24.0.0",
+    "electron": "^24.8.5",
     "grpc-tools": "^1.8.0"
   },
   "dependencies": {
